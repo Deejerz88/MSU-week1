@@ -1,0 +1,90 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  border-bottom: 10px solid bisque;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header,
+footer {
+  height: 50px;
+  background-color: rgb(10, 90, 64);
+  color: white;
+  font-weight: bold;
+  width: 100vw;
+  left: 0px;
+}
+
+#navbar {
+  text-align: right;
+  line-height: 25px;
+  padding-right: 15px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+section {
+  width: 100vw;
+  color: #504846;
+}
+
+#section1 {
+  margin-top: 65px;
+}
+
+#section2 {
+  background-color: bisque;
+  padding: 5px;
+}
+
+form {
+  border: 5px solid tan;
+  border-radius: 20px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 3px;
+  width: 250px;
+}
+
+button {
+  margin-top: 2px;
+  padding: 5px 30px;
+  background-color: #504846;
+  color: white;
+  border: 0px;
+}
+
+footer {
+  line-height: 50px;
+  border-bottom: 10px solid #504846;
+}
+
+.text-center {
+  text-align: center;
+}
